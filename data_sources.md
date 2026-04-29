@@ -32,11 +32,3 @@ This file summarizes the data used in the empirical analysis.
   Source: [ECB - EER40](https://data.ecb.europa.eu/data/datasets/EXR/EXR.D.E03.EUR.EN00.A)
 
 - **VSTOXX**: volatility index used to identify and contextualize periods of high uncertainty in the European stock market.
-
-## Data transformations
-
-The short-term monetary policy proxy is constructed by combining EONIA and €STR.  
-EONIA is available until 2019, while €STR is available from 2019 onward. The two series are linked using the ECB relation:
-
-```text
-EONIA = €STR + 0.085%
